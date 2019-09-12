@@ -19,11 +19,11 @@
 				"settings": {
 					"localUri": "localService/metadata.xml",
 					"annotations": [
-						"annotation1"
+						"annotation"
 					]
 				}
 			},
-			"annotation1": {
+			"annotation": {
 				"uri": "annotations/annotation.xml",
 				"type": "ODataAnnotation",
 				"settings": {
