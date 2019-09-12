@@ -19,15 +19,15 @@
 				"settings": {
 					"localUri": "localService/metadata.xml",
 					"annotations": [
-						"annotation"
+						"annotation1"
 					]
 				}
 			},
-			"annotation": {
+			"annotation1": {
+				"uri": "annotations/annotation.xml",
 				"type": "ODataAnnotation",
-				"uri": "../annotation.xml",
 				"settings": {
-					"localUri": "../annotation.xml"
+					"localUri": "annotations/annotation.xml"
 				}
 			}
 		},
@@ -132,5 +132,9 @@
 	},
 	"sap.platform.hcp": {
 		"uri": ""
+	},
+	"sap.platform.abap": {
+		"uri": "/sap/bc/ui5_ui5/sap/zmytravelexp/webapp",
+		"_version": "1.1.0"
 	}
 }
